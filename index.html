@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <title></title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar  navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">COVID TRACKER</a>
+                </div>
+                
+           
+
+                <div class="search-country hide">
+                    <div class="search-box">
+                        <input type="text" id="search-input" placeholder="Search..">
+                        <div class="country-list"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row">
+
+        <div class="card card4">
+            <div class="country">
+            <div class="name">Loading...</div> 
+            <div class="change-country">Change Country</div>
+           
+    </div>
+</div>
+        <div class="card card5">
+            <div class="chartA">
+                <canvas id="myChart4"></canvas>
+                </div>        
+    </div>
+</div>
+
+        <div class="card card1">
+            <div class="total-cases">Total Cases
+            <div class="value"><b>0</b></div>
+            <div class="chart">
+                <canvas id="myChart1"></canvas>
+                </div>
+        </div>
+        </div>
+        <div class="card card2">
+            <div class="recovered">Total Recovered
+            <div class="value"><b>0</b></div>
+            <div class="chart">
+                <canvas id="myChart2"></canvas>
+                </div>
+        </div>
+        </div>
+        <div class="card card3">
+            <div class="deaths">Total Deaths
+            <div class="value"><b>0</b></div>
+            <div class="chart">
+                <canvas id="myChart3"></canvas>
+                </div>
+        </div>
+        </div>
+</div>
+  
+
+    
+    <footer> 
+        <div class="container">
+            <center>
+                Copyright ©SuryanshCovid-19data. All Rights Reserved and Contact Us: +91 90000 00000
+            </center>
+        </div>
+    </footer>
+
+    <script src="./app.js"></script>
+    <script src="./chart.js"></script>
+    <script src="./countries.js"></script>
+    <script src="./india.js"></script>
+  
+   
+</body>
+
+</html>
